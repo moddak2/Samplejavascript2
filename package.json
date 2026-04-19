@@ -1,0 +1,12 @@
+{
+  "name": "secure-js-samples",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Secure JavaScript handling examples (no DB, no env).",
+  "main": "src/secure_demo.js",
+  "scripts": {
+    "test": "node --test",
+    "build": "node --check src/secure_demo.js && node scripts/build.js",
+    "demo": "node src/run_demo.js"
+  }
+}
